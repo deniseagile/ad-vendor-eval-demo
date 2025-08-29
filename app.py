@@ -1,4 +1,8 @@
 # app.py
+from pathlib import Path
+# OLD: DATA_DIR = Path("data")
+DATA_DIR = Path(".")  # look in repo root
+
 import streamlit as st
 import pandas as pd
 import numpy as np
